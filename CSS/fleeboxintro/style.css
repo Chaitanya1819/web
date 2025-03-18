@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    align-items: flex-end;/*placing elements at bottom, baseline property at above*/
+    justify-content: space-between; /* space will be equally distributed */
+    flex-wrap: wrap;/*it will wrap up according to space*/
+    align-content: flex-start;/*space between rows will be removed*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{    
+    background-color: hsl(0, 100%, 70%);
+    align-self: start;/*allign property will start from here*/
+}
+#box2{    
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{    
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{    
+    background-color: hsl(201, 100%, 70%);
+}

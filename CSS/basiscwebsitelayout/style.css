@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: hsl(0, 0%, 87%);
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+    background-color: hsl(0, 1%, 17%);
+    height: 50px;
+}
+aside{
+    width: 20%; /*it will take only 20% space in web page*/
+    float:left;
+    padding: 10px;
+}
+section{
+    width: 40%; 
+    float:left;
+    padding: 10px;
+}
+article{
+    width: 40%; 
+    float:left;
+    padding:10px;
+}
+footer{
+    display: block;
+    clear: both;/*for clearing float*/
+    background-color: hsl(0, 0%, 87%);
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    aside,section,article{
+        width:100% 
+    }
+}

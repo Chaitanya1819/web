@@ -1,0 +1,11 @@
+h1{
+    border-style:dashed;
+    border-width: 3px;
+    border-color: rgb(42, 118, 165);
+}
+p{
+  border-bottom: dotted 2px yellow;
+  border-top: double 2px red;
+  border-left: ridge 3px green;
+  border-right:inherit 2px yellowgreen ;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color:hsl(80, 9%, 19%);
+  }
+.odd{
+     color: rgb(162, 72, 62);
+  }
+.even{
+  color: #8d629b;
+}  
+#p0{
+  color:hsl(33, 100%, 88%)
+}

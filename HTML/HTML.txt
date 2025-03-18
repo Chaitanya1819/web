@@ -1,0 +1,130 @@
+Hyper Text Markup Language
+HTML in 5 topics :
+
+Index.html is used to create a main file.
+
+In Body of html if we want to write new pargraph we need to use P in that if we use lorem 1 to n any number it will genarate 1 to n words.
+for html children items are head & body
+
+for comments of any line use control slash in vs code
+e.g: <!-- My name is Chaitanya -->
+
+html is a case insensitive language as <h1> or <H1>
+
+In image tag src and alt will be there we add image link or image file in "src" where as image details in "alt".
+<img src="" alt="" width ="">
+width used to adjust size
+
+cntl + alt c is used to store comments
+
+br tag is used to enter in new lines
+
+sub and super tags are used html as co2 and used in power
+
+pre tag used to maintain any paragraphs structure as new lines and description
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi Chaitanya</h1>
+    <p>How are you</p>
+    <p>tell me about yourself</p>
+    <a href="https://www.youtube.com/">click here to go to youtube</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa necessitatibus cupiditate consectetur quasi velit tempore fuga esse beatae corrupti impedit culpa dolorem amet provident delectus, aut dolorum quaerat error in quod!</p>
+    <a href="new.html">click me to go another web page using html</a>
+    <hr>
+    <!-- image tag -->
+    <img src="virat.jpeg" alt="humanimage" width="120">
+    <hr>
+    <br>
+    <!--bold and italic and underline usages-->
+    <b>explain your goals</b>
+    <br>
+    <i>your longterm goal</i>
+    <br>
+    <u>acheive your goals</u>
+    <br>
+    <!--br tag is used to enter in new lines-->
+    <!--hr tags used to seperate in horizontal lines-->
+    <big>This is Chaitanya</big>
+    <br>
+    <small>This is Chaitanya</small>
+    <br>
+    <p>Co<sub>2</sub></p>
+    <p>ax<sup>2</sup>+bx+c</p>
+    <pre>
+        There are 27 = 128 printable characters which can be represented by different 7-BIT ASCII codes. Another set of characters are not for HTML representation but they are devised to control hardware.
+
+        Following tables list down all the 7-BIT ASCII codes and their equivalent HTML Entity Codes.
+        
+        If you want to see equivalent HEX, OCT and extended set of ASCII codes then check next chapter.   
+    </pre>
+</body>
+</html>
+
+
+3 topic: HTML page layout 
+<header>
+<main>
+<footer>
+
+In main tag we use section,article, aside
+
+div tag is used as container for other tag
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1> web development</h1>
+    </header>
+    <main>
+     <!--<p> for adding information</p>-->
+     <section> 
+        <a href="https://www.youtube.com/">youtube</a>
+        <br>
+        <a href="https://www.youtube.com/" target = "_main">
+            <img src="virat.jpeg" alt="virat" height="240" width="250">
+        </a>
+     </section>
+     <section>
+        <!-- using div tag it is used as block element & always takes full width -->
+        <div>
+            <h1> Why we need html</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci possimus odio laudantium veritatis voluptates consequuntur nulla minus impedit praesentium, cupiditate inventore.</p>
+        </div>
+
+        <div>
+            <h1>Explain about css</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde amet pariatur porro itaque quam neque.</p>
+        </div>
+        <!-- span is an example of inline element & and takes width as its neccesary -->
+        <span>
+            <p> Useage of span tag</p>
+        </span>
+        <span>
+            detailed explaination of span ag
+        </span>
+     </section>
+    </main>
+    <footer>
+        conclusion
+
+    </footer>
+    
+</body>
+</html>
+
+
+
+

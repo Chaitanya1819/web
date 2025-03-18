@@ -1,0 +1,13 @@
+@font-face{
+    src: url(fonts/Roboto-Medium.ttf);
+    font-family: Roboto-Medium
+}
+
+h1{
+    font-family:'Roboto-Medium', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}

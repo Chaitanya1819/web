@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Basic input details form</h1>
+    <form action="">
+        <h4>Please enter your name:</h4>
+        <input type="text" placeholder="enter your name"><br>
+        <h4>choose your section </h4>
+        <label for="sectionida">
+        <input type="radio" value="section a" name="section" id="sectionida"> Section A
+        </label>
+        <label for="sectionidb">
+        <input type="radio" value="section b" name="section" id="sectionidb"> Section B 
+        </label>
+        <label for="sectionidc">
+            <input type="radio" value="section c" name="section" id="sectionidc"> Section C <br>
+            </label>
+        <div>    
+        <h4>please select your interested subject</h4> <br>  
+            <input type="checkbox" id="mathscourse" class="mpc" name="course">
+            <label for="mathscourse">maths course </label>
+        </div>  
+        <div>    
+            <input type="checkbox" id="biologycourse" class="Bipc" name="course">
+            <label for="biologycourse">Biology course</label>
+        </div>  
+        <h4>Please enter your email:</h4>
+        <input type="email" placeholder="enter your email"><br>
+        <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain why do you like maths/biology"></textarea><br>
+        <select name="subject" id="subject">
+            <option value="default">choose your fav subject</option>
+            <option value="maths">maths</option>
+            <option value="physics">physics</option>
+            <option value="chemistry">chemistry</option>
+        </select>
+    </form>
+</body>
+</html>
