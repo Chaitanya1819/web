@@ -1,32 +1,13 @@
-// import componentsimg from './assets/components.png'
-// import jsximg from './assets/jsx-ui.png'
-// import propimg from './assets/config.png'
-// import stateimg from './assets/state-mgmt.png'
+import AuthInputs from './components/AuthInputs.jsx';
+import Header from './components/Header.jsx';
 
-import Header from './components/Header/Header.jsx'
-
-
-import Coreconcepts from './components/CoreConcepts.jsx';
-import Examples from './components/Examples.jsx';
-
-
-function App() {
-  
-
+export default function App() {
   return (
-    
-
-    <div>
-      <Header> </Header> 
+    <>
+      <Header />
       <main>
-        
-        
-        <Coreconcepts />
-        <Examples />
-        
+        <AuthInputs />
       </main>
-    </div>
+    </>
   );
 }
-
-export default App;
