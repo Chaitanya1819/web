@@ -4,7 +4,7 @@ An interactive e-commerce web app built with React and Redux where users can bro
 
 ## 🚀 Live Demo
 
-[👉 Visit Live Site](https://your-deployed-site-url.com)
+[👉 Visit Live Site](https://plantshopproject.netlify.app/)
 
 ## 📂 GitHub Repository
 
